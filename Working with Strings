@@ -1,0 +1,41 @@
+# Working with Strings
+
+# Escape Quotations
+phrase = "\"Attack on Titan\""
+
+# String Concatenation
+print(phrase + " is the greatest anime of all time!")
+
+# Change all characters to lowercase
+print(phrase.lower())
+
+# Change to uppercase
+print(phrase.upper())
+
+# To check if all characters are in lowercase
+print(phrase.isupper()) # Returns False
+
+# Check if uppercase
+print(phrase.islower()) # False
+
+# Change characters to uppercase and check if upper is True/False
+print(phrase.upper().isupper())
+
+# lowercase
+print(phrase.lower().islower())
+
+# Return a False case
+print(phrase.lower().isupper())
+
+# Find length of characters in the string
+print(len(phrase)) # Includes characters + space + quotations
+
+# Find the first character in the string
+print(phrase[0])
+
+# Find the index of a character
+print(phrase.index('a'))
+print(phrase.index('A')) # Passing a parameter
+
+# Replace
+print(phrase.replace('Attack', 'Sleep'))
